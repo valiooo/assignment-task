@@ -11,5 +11,6 @@ Demo: [https://assignment-go.vercel.app/](https://assignment-go.vercel.app/)
 
 ### Notes
 - Due to the time limitation, components are not fully covered by unit tests. 
+- Added responsive layout for smaller screens (460px or less)
 - Technologies used: TailwindCSS, React Hook Form, Jest
 
