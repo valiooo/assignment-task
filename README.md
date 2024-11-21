@@ -1,4 +1,4 @@
-# TransferGo Assignment task
+# TransferGo Assignment Task
 
 Demo: [https://assignment-go.vercel.app/](https://assignment-go.vercel.app/)
 
