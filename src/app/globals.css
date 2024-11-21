@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-black font-sans min-w-[320px];
+}
+
+._label {
+  @apply block text-gray text-xs mb-1 uppercase tracking-tighter;
+}
+
+._field {
+  @apply bg-white border-b-smoke border-b w-full h-10 focus:shadow-none pr-10;
+}
+
+._select-wrapper {
+  @apply grow basis-full shrink xsm:basis-1/2 h-[3.625rem];
+}
+
+._input-wrapper {
+  @apply basis-auto shrink grow relative;
+}
+
+._currency-label {
+  @apply absolute right-0 top-8 text-base leading-none text-gray;
+}

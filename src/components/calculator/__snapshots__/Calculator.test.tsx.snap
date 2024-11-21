@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator should render Calculator 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-white w-[35.2rem] h-[32rem] xsm:h-[22.2rem] xsm:shadow-theme xsm:mx-6"
+  >
+    <div
+      class="flex flex-col items-start justify-between h-full px-6 py-[2.5rem] min-[420px]:px-[3.25rem]"
+    >
+      <div
+        class="flex flex-row items-start justify-start gap-3 flex-wrap xsm:flex-column xsm:flex-nowrap xsm:gap-[4.5rem] relative w-full"
+      >
+        <div
+          class="_select-wrapper"
+        >
+          <div
+            data-testid="select-from"
+          >
+            <label
+              class="_label"
+              for="from"
+            >
+              From:
+            </label>
+            <div
+              class="!border-0 !shadow-none border w-full css-b62m3t-container"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-from-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+                role="log"
+              />
+              <div
+                class="!bg-white !rounded-none !border-0 !border-b-smoke !border-b !shadow-none !cursor-pointer css-13cymwt-control"
+              >
+                <div
+                  class="css-hlgwow"
+                >
+                  <div
+                    class="!-mx-[8px] !-my[2px] css-1dimb5e-singleValue"
+                  >
+                    <div
+                      class="flex items-center justify-start gap-2 "
+                    >
+                      <span>
+                        <svg
+                          data-testid="flag-EUR"
+                        />
+                      </span>
+                      <span
+                        class="text-2xl"
+                      >
+                        EUR
+                      </span>
+                    </div>
+                  </div>
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-readonly="true"
+                    class="css-1s80ejz-dummyInput-DummyInput"
+                    id="from"
+                    inputmode="none"
+                    role="combobox"
+                    tabindex="0"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="css-1wy0on6"
+                >
+                  <span
+                    class="!hidden css-1u9des2-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class="css-1xc3v61-indicatorContainer"
+                  >
+                    <svg />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="_select-wrapper"
+        >
+          <div
+            data-testid="select-to"
+          >
+            <label
+              class="_label"
+              for="to"
+            >
+              To:
+            </label>
+            <div
+              class="!border-0 !shadow-none border w-full css-b62m3t-container"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-to-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+                role="log"
+              />
+              <div
+                class="!bg-white !rounded-none !border-0 !border-b-smoke !border-b !shadow-none !cursor-pointer css-13cymwt-control"
+              >
+                <div
+                  class="css-hlgwow"
+                >
+                  <div
+                    class="!-mx-[8px] !-my[2px] css-1dimb5e-singleValue"
+                  >
+                    <div
+                      class="flex items-center justify-start gap-2 "
+                    >
+                      <span>
+                        <svg
+                          data-testid="flag-EUR"
+                        />
+                      </span>
+                      <span
+                        class="text-2xl"
+                      >
+                        GBP
+                      </span>
+                    </div>
+                  </div>
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-readonly="true"
+                    class="css-1s80ejz-dummyInput-DummyInput"
+                    id="to"
+                    inputmode="none"
+                    role="combobox"
+                    tabindex="0"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="css-1wy0on6"
+                >
+                  <span
+                    class="!hidden css-1u9des2-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    class="css-1xc3v61-indicatorContainer"
+                  >
+                    <svg />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-label="Swap currencies"
+          class="flex items-center justify-center bg-white gap-3 xsm:gap-0 xsm:w-9 h-9 mt-3 xsm:mt-0 xsm:absolute xsm:left-1/2 xsm:bottom-0.5 xsm:-translate-x-1/2"
+          type="button"
+        >
+          <svg />
+          <span
+            class="text-gray text-xs uppercase tracking-tighter xsm:hidden"
+          >
+            Swap currencies
+          </span>
+        </button>
+      </div>
+      <div
+        class="flex-auto flex items-start justify-between mt-5 xsm:mt-[2rem] gap-6 xsm:gap-[4.5rem] w-full"
+      >
+        <div
+          class="_input-wrapper"
+        >
+          <div
+            data-testid="field-fromAmount"
+          >
+            <label
+              class="_label"
+              for="fromAmount"
+            >
+              Amount:
+            </label>
+            <input
+              class="_field text-[29px] font-medium"
+              id="fromAmount"
+              inputmode="numeric"
+              type="text"
+              value="1.00"
+            />
+          </div>
+          <div
+            class="_currency-label"
+          >
+            EUR
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full"
+      >
+        <button
+          class="bg-green h-[3.75rem] w-full flex items-center justify-center text-white text-xl transition hover:bg-green-hover"
+          type="button"
+        >
+          Convert
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

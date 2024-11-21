@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldInput Should render FieldInput 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="field-fromAmount"
+  >
+    <label
+      class="_label"
+      for="fromAmount"
+    >
+      Amount
+    </label>
+    <input
+      class="_field text-[29px] font-medium"
+      id="fromAmount"
+      inputmode="numeric"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

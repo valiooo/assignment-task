@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flag should render Flag 1`] = `
+<DocumentFragment>
+  <svg
+    data-testid="flag-EUR"
+  />
+</DocumentFragment>
+`;
